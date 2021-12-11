@@ -27,7 +27,7 @@ def part_two(inputs):
 			fishs = [0]*9
 			fishs[fish] += 1
 			days = 0
-			while days < 10000:
+			while days < 256:
 				fishs_copy = fishs
 				fishs = [0]*9
 				for fish_index in range(len(fishs)):
